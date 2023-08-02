@@ -138,25 +138,21 @@
                         id: '1',
                         title: 'Getting started',
                         description: 'Understand client business',
-                        // description: 'Present all available features in Essentials.',
                     },
                     {
                         id: '2',
                         title: 'Planning',
                         description: 'Analyze Opportunities',
-                        // description: 'All Feature available features in Essentials.',
                     },
                     {
                         id: '3',
                         title: 'Execution',
                         description: 'Execute strategy',
-                        // description: 'Popular Feature available features in Essentials.',
                     },
                     {
                         id: '4',
                         title: 'Review',
                         description: 'Update progress report',
-                        // description: 'Latest Feature available features in Essentials.',
                     },
                 ],
                 pricingData: [
