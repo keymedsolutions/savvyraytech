@@ -1,12 +1,12 @@
 <template>
     <ul class="mainmenu">
         <li class="has-droupdown has-menu-child-item">
-            <a href="#">
+            <a href="/">
                 Home
                 <Icon name="plus" class="collapse-icon plus"/>
                 <Icon name="minus" class="collapse-icon minus"/>
             </a>
-            <ul class="submenu">
+            <!-- <ul class="submenu">
                 <li><router-link to="/business-consulting">Business Consulting</router-link></li>
                 <li><router-link to="/business-consulting-2">Business Consulting 02</router-link></li>
                 <li><router-link to="/corporate">Corporate</router-link></li>
@@ -25,10 +25,14 @@
                 <li><router-link to="/international-consulting">International Consulting</router-link></li>
                 <li><router-link to="/startup">Startup</router-link></li>
                 <li><router-link to="/web-agency">Web Agency</router-link></li>
-            </ul>
+            </ul> -->
         </li>
-        <li><router-link to="/about">About</router-link></li>
-        <li class="with-megamenu has-menu-child-item">
+        <li><router-link to="/about">What we do</router-link></li>
+        <li><router-link to="/about">About us</router-link></li>
+        <li><router-link to="/about"> Careers - Life at Savvy Ray</router-link></li>
+        <li><router-link to="/about">Blog</router-link></li>
+        <li><router-link to="/about">Contact Us</router-link></li>
+        <!-- <li class="with-megamenu has-menu-child-item">
             <a href="#">
                 Elements
                 <Icon name="plus" class="collapse-icon plus"/>
@@ -130,7 +134,7 @@
                 <li><router-link to="/portfolio-box-layout">Portfolio Box Layout</router-link></li>
             </ul>
         </li>
-        <li><router-link to="/contact">Contact</router-link></li>
+        <li><router-link to="/contact">Contact</router-link></li> -->
     </ul>
 </template>
 

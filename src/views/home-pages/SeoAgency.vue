@@ -4,30 +4,30 @@
         <div class="slider-area slider-style-6 shape-right height-750">
             <div class="container">
                 <div class="row row--30 align-items-center">
-                    <div class="order-2 order-lg-1 col-lg-6 mt_md--50 mt_sm--50 mt_lg--30">
+                    <div class="order-2 order-lg-1 col-lg-12 mt_md--50 mt_sm--50 mt_lg--30">
                         <div class="inner text-start">
                             <h1 class="title color-white" data-aos="fade-up" data-aos-delay="100">
-                                Trending <br />Business
+                                Transforming businesses in the digital era
                             </h1>
                             <p class="description color-white" data-aos="fade-up" data-aos-delay="150">
-                                We help our clients succeed by creating brand identities, digital experiences, and print materials.
+                                Ask Savvy Ray Technologies to create a complete and ambitious digital marketing plan that will elevate your business to new levels of success
                             </p>
                             <div class="button-group mt--30 mt_sm--20" data-aos="fade-up" data-aos-delay="200">
                                 <a class="btn-default btn-medium btn-icon btn-border"
                                    href="#">
-                                    Purchase Now <Icon name="arrow-right" size="20" icon-class="icon"/>
+                                    Let's talk <Icon name="arrow-right" size="20" icon-class="icon"/>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 order-1 order-lg-2">
+                    <!-- <div class="col-lg-6 order-1 order-lg-2">
                         <div class="thumbnail" data-aos="fade-up" data-aos-delay="100">
                             <img src="../../assets/images/banner/banenr-image-02.png" alt="Banner Images"/>
                         </div>
                     </div>
                     <div class="shape-image w-auto">
                         <img src="../../assets/images/banner/white-shape.svg" alt="Banner Images"/>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -101,7 +101,7 @@
                         <SectionTitle
                             text-align="center"
                             subtitle="Our Awesome Client"
-                            title="Our Awesome Clients"
+                            title="Trusted by the best clientele list with us"
                             data-aos="fade-up"
                         />
                     </div>
@@ -136,23 +136,27 @@
                 timelineData: [
                     {
                         id: '1',
-                        title: 'Knowledge',
-                        description: 'Present all available features in Essentials.',
+                        title: 'Getting started',
+                        description: 'Understand client business',
+                        // description: 'Present all available features in Essentials.',
                     },
                     {
                         id: '2',
-                        title: 'Working',
-                        description: 'All Feature available features in Essentials.',
+                        title: 'Planning',
+                        description: 'Analyze Opportunities',
+                        // description: 'All Feature available features in Essentials.',
                     },
                     {
                         id: '3',
-                        title: 'Solution',
-                        description: 'Popular Feature available features in Essentials.',
+                        title: 'Execution',
+                        description: 'Execute strategy',
+                        // description: 'Popular Feature available features in Essentials.',
                     },
                     {
                         id: '4',
-                        title: 'Process',
-                        description: 'Latest Feature available features in Essentials.',
+                        title: 'Review',
+                        description: 'Update progress report',
+                        // description: 'Latest Feature available features in Essentials.',
                     },
                 ],
                 pricingData: [

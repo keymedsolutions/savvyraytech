@@ -29,7 +29,7 @@
             },
             showTopHeader: {
                 type: Boolean,
-                default: true
+                default: false
             },
             topbarStyle: {
                 type: Number,

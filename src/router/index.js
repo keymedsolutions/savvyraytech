@@ -60,8 +60,8 @@ Vue.use(VueRouter)
 const routes = [
     {
         path: '/',
-        name: 'Demo',
-        component: Demo,
+        name: 'Home',
+        component: SeoAgency,
         meta: {
             title: 'Doob || Doob Business and Consulting Bootstrap5 Template',
         },
