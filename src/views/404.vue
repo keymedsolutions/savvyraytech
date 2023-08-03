@@ -8,14 +8,14 @@
                         <div class="error-inner">
                             <h1>404</h1>
                             <h2 class="title">Something’s not right.</h2>
-                            <p class="description"> By injectedeed eedhumour, or randomised words which don't look even
-                                .</p>
-                            <form action="#" class="blog-search">
+                            <p class="description"> It's a deadend. Move to home page instead.
+                            </p>
+                            <!-- <form action="#" class="blog-search">
                                 <input type="text" placeholder="Search Here...">
                                 <button class="search-button">
                                     <Icon name="search" size="20"/>
                                 </button>
-                            </form>
+                            </form> -->
                             <div class="view-more-button"><a class="btn-default" href="/">Go Back Home</a></div>
                         </div>
                     </div>

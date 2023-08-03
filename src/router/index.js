@@ -505,6 +505,14 @@ const routes = [
         meta: {
             title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
         },
+    },
+    {
+        path: '*',
+        name: 'Page not found',
+        component: ErrorPage,
+        meta: {
+            title: 'Page not found',
+        },
     }
 ]
 

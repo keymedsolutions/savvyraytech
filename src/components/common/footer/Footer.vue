@@ -4,14 +4,19 @@
         <footer v-if="data.showFooter" class="rn-footer footer-style-default variation-two">
             <div v-if="data.showCta" class="rn-callto-action clltoaction-style-default style-7">
                 <div class="container">
-                    <div class="row row--0 align-items-center content-wrapper">
+                    <div class="row row--0 align-items-center content-wrapper font-16">
+                        <SectionTitle
+                            textAlign="left"
+                            title=""
+                            subtitle="Outperform your competition"
+                            data-aos="fade-up"
+                        />
                         <div class="col-lg-8 col-md-8">
                             <div class="inner" data-aos="fade-up">
                                 <div class="content text-left">
-                                    <Logo/>
-                                    <p class="subtitle">
-                                        If you want to create a corporate template you can purchase now our doob
-                                        template.
+                                    
+                                    <p class="mb--0">
+                                        Partner with us for remarkable success in brand awareness, customer engagement, and revenue generation. Let's connect and stay ahead in your industry.
                                     </p>
                                 </div>
                             </div>
@@ -19,7 +24,7 @@
                         <div class="col-lg-4 col-md-4">
                             <div class="call-to-btn text-start mt_sm--20 text-lg-end" data-aos="fade-up">
                                 <Button
-                                    title="Purchase Doob"
+                                    title="Let’s Talk"
                                     icon="arrow-right"
                                     url="#"
                                 />
@@ -28,54 +33,60 @@
                     </div>
                 </div>
             </div>
-            <div class="footer-top">
+            <div class="footer-top pb-0">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-2 col-md-6 col-sm-6 col-12">
                             <div class="rn-footer-widget">
-                                <h4 class="title">Services</h4>
+                                <h4 class="title">Details</h4>
                                 <div class="inner">
-                                    <ul class="footer-link link-hover">
-                                        <li>
-                                            <router-link to="/about">About</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="/portfolio">Portfolio</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="/contact">Contact</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="/service">Service</router-link>
-                                        </li>
-                                    </ul>
+                                    
+                                    <h4 class="subtitle mb-3 mt-3">Address: </h4>
+                                    <span>Address line 1</span><br/>
+                                    <span>Address line 2</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                        <div class="col-lg-5 col-md-6 col-sm-6 col-12">
                             <div class="rn-footer-widget">
                                 <div class="widget-menu-top">
-                                    <h4 class="title">Solutions</h4>
+                                    <h4 class="title"> What we do</h4>
                                     <div class="inner">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <ul class="footer-link link-hover">
+                                            <li>
+                                                <router-link to="/digital-marketing">Digital Marketing</router-link>
+                                            </li>
+                                            <li>
+                                                <router-link to="/search-engine-optimization">Search Engine Optimization</router-link>
+                                            </li>
+                                            <li>
+                                                <router-link to="/social-media-marketing">Social Media Marketing</router-link>
+                                            </li>
+                                           
+                                        </ul>
+                                            </div>
+                                            <div class="col-lg-6">
                                         <ul class="footer-link link-hover">
                                             <li>
-                                                <router-link to="/brand">Brand</router-link>
+                                                <router-link to="/search-engine-marketing">Search Engine Marketing</router-link>
                                             </li>
                                             <li>
-                                                <router-link to="/call-to-action">call To Action</router-link>
+                                                <router-link to="/web-design-development">Web Desgin & Development</router-link>
                                             </li>
                                             <li>
-                                                <router-link to="/counter">Counter</router-link>
-                                            </li>
-                                            <li>
-                                                <router-link to="/service">Service</router-link>
+                                                <router-link to="/concept-shoots">Concept Shoots</router-link>
                                             </li>
                                         </ul>
+                                            </div>
+                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                        <!-- <div class="col-lg-2 col-md-6 col-sm-6 col-12">
                             <div class="rn-footer-widget">
                                 <h4 class="title">Company</h4>
                                 <div class="inner">
@@ -95,42 +106,47 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
+                        </div> -->
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                             <div class="rn-footer-widget">
-                                <h4 class="title">Resources</h4>
+                                <h4 class="title">Other links</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
                                         <li>
-                                            <router-link to="/team">Team</router-link>
+                                            <router-link to="/careers">Careers</router-link>
                                         </li>
                                         <li>
-                                            <router-link to="/testimonial">Testimonial</router-link>
+                                            Email: <a href=":mailto=user@email.com">user@email.com</a>
                                         </li>
                                         <li>
-                                            <router-link to="/service">Service</router-link>
-                                        </li>
-                                        <li>
-                                            <router-link to="/timeline">Timeline</router-link>
+                                            HR: <router-link to="/careers">HR</router-link>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="col-lg-2 col-md-6 col-sm-6 col-12">
                             <div class="rn-footer-widget">
-                                <h4 class="title">Stay With Us.</h4>
+                                <h4 class="title">Stay connected</h4>
                                 <div class="inner">
-                                    <h6 class="subtitle">2000+ Our clients are subscribe Around the World</h6>
-                                    <ul class="social-icon social-default justify-content-start">
+                                    <Logo/>
+                                    <!-- <h6 class="subtitle">2000+ Our clients are subscribe Around the World</h6> -->
+                                    
+                                    <!-- <ul class="footer-link link-hover">
+                                        <li>
+                                            <router-link to="/careers">Careers</router-link>
+                                        </li>
+                                        <li>
+                                            Email: <a href=":mailto=user@email.com">user@email.com</a>
+                                        </li>
+                                        <li>
+                                            HR: <router-link to="/careers">HR</router-link>
+                                        </li>
+                                    </ul> -->
+                                    <ul class="social-icon social-default justify-content-start mt--5">
                                         <li>
                                             <a href="https://www.facebook.com/" target="_blank">
                                                 <Icon name="facebook"/>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.twitter.com" target="_blank">
-                                                <Icon name="twitter"/>
                                             </a>
                                         </li>
                                         <li>
@@ -167,10 +183,11 @@
     import ScrollTop from './ScrollTop'
     import Logo from '../../elements/logo/Logo'
     import Newsletter from './Newsletter'
+    import SectionTitle from "../../elements/sectionTitle/SectionTitle";
 
     export default {
         name: 'Footer',
-        components: {Newsletter, Logo, ScrollTop, Icon, Button, Copyright},
+        components: {Newsletter, Logo, ScrollTop, Icon, Button, Copyright, SectionTitle},
         props: {
             data: {
                 default: null

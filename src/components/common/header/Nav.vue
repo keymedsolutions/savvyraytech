@@ -1,11 +1,6 @@
 <template>
     <ul class="mainmenu">
-        <li class="has-droupdown has-menu-child-item">
-            <a href="/">
-                Home
-                <Icon name="plus" class="collapse-icon plus"/>
-                <Icon name="minus" class="collapse-icon minus"/>
-            </a>
+        <li><router-link to="/">Home</router-link></li>
             <!-- <ul class="submenu">
                 <li><router-link to="/business-consulting">Business Consulting</router-link></li>
                 <li><router-link to="/business-consulting-2">Business Consulting 02</router-link></li>
@@ -26,12 +21,25 @@
                 <li><router-link to="/startup">Startup</router-link></li>
                 <li><router-link to="/web-agency">Web Agency</router-link></li>
             </ul> -->
+        <li class="has-droupdown has-menu-child-item">
+            <a href="#">
+                What we do
+                <Icon name="plus" class="collapse-icon plus"/>
+                <Icon name="minus" class="collapse-icon minus"/>
+            </a>
+            <ul class="submenu">
+                <li><router-link to="/search-engine-optimization">Search Engine Optimization</router-link></li>
+                <li><router-link to="/social-media-marketing">Social Media Marketing</router-link></li>
+                <li><router-link to="/pay-per-click">Pay per click</router-link></li>
+                <li><router-link to="/web-design-development">Web Desgin & Development</router-link></li>
+                <li><router-link to="/concept-shoots">Concept Shoots</router-link></li>
+                <li><router-link to="/branding">Branding</router-link></li>
+            </ul>
         </li>
-        <li><router-link to="/about">What we do</router-link></li>
-        <li><router-link to="/about">About us</router-link></li>
-        <li><router-link to="/about"> Careers - Life at Savvy Ray</router-link></li>
-        <li><router-link to="/about">Blog</router-link></li>
-        <li><router-link to="/about">Contact Us</router-link></li>
+        <li><router-link to="/about-us">About us</router-link></li>
+        <li><router-link to="/careers"> Careers - Life at Savvy Ray</router-link></li>
+        <li><router-link to="/blog">Blog</router-link></li>
+        <li><router-link to="/contact-us">Contact Us</router-link></li>
         <!-- <li class="with-megamenu has-menu-child-item">
             <a href="#">
                 Elements
