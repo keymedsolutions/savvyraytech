@@ -7,7 +7,10 @@
 </template>
 
 <script>
+    import Layout from '../components/common/Layout'
+    import Breadcrumb from '../components/elements/breadcrumb/Breadcrumb'
     export default {
-        name: 'BrandCarouselPage'
+        name: 'BrandCarouselPage',
+        components: {Layout, Breadcrumb}
     }
 </script>

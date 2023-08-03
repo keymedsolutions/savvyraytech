@@ -46,7 +46,21 @@
          class="slick-space-gutter--15 rn-slick-dot rn-slick-arrow mb--60">
         <VueSlickCarousel v-bind="sliderSetting">
             <div v-for="(item, index) in testimonial" :key="index">
-                <div class="testimonial-style-two">
+                <div :class="`rn-box-card ${checkTestimonialStyle}`">
+                    <div class="inner">
+                        <figure class="thumbnail">
+                            <img :src="require(`@/assets/images/testimonial/${item.image}.jpg`)"
+                                alt="Testimonial image"/>
+                        </figure>
+                        <figcaption class="content">
+                            <p class="description">{{ item.description }}</p>
+                            <h2 class="title">{{ item.name }}</h2>
+                            <h6 class="subtitle theme-gradient">{{ item.designation }}</h6>
+                        </figcaption>
+                    </div>
+                </div>
+
+                <!-- <div class="testimonial-style-two">
                     <div class="row align-items-center row--20">
                         <div class="order-2 order-md-1 col-lg-6 col-md-8 offset-lg-1">
                             <div class="content mt_sm--40">
@@ -66,7 +80,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </VueSlickCarousel>
     </div>
@@ -89,7 +103,7 @@
             return {
                 sliderSetting: {
                     infinite: true,
-                    slidesToShow: 1,
+                    slidesToShow: 3,
                     slidesToScroll: 1,
                     dots: true,
                     arrows: true,
@@ -97,19 +111,19 @@
                         {
                             breakpoint: 800,
                             settings: {
-                                slidesToShow: 1,
+                                slidesToShow: 2,
                             }
                         },
                         {
                             breakpoint: 993,
                             settings: {
-                                slidesToShow: 1,
+                                slidesToShow: 2,
                             }
                         },
                         {
                             breakpoint: 580,
                             settings: {
-                                slidesToShow: 1,
+                                slidesToShow: 2,
                             }
                         },
                         {

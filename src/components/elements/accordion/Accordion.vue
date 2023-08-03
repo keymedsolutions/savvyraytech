@@ -1,7 +1,7 @@
 <template>
     <div :class="`rn-accordion-style ${accordionStyleClass} accordion`">
         <div class="accordion" :id="id">
-            <div class="accordion-item card" v-for="(content, index) in accordionContent">
+            <div class="accordion-item card" v-for="(content, index) in accordionContent" :key="index">
                 <h2 class="accordion-header card-header" :id="`heading${content.id}`">
                     <button class="accordion-button"
                             type="button"
@@ -16,7 +16,7 @@
                 </h2>
                 <div :id="`collapse${content.id}`"
                      class="accordion-collapse collapse"
-                     :class="{'show': index === 0}"
+                     :class="{'show': index === -1}"
                      :aria-labelledby="`heading${content.id}`"
                      :data-bs-parent="`#${id}`">
                     <div class="accordion-body card-body">
@@ -69,7 +69,7 @@
         },
         data() {
             return {
-                activeCollapse: 0
+                activeCollapse: -1
             }
         }
     }

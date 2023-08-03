@@ -34,11 +34,11 @@
         <!-- End Slider Area -->
 
         <!-- Start CTA Area -->
-        <CallToAction
+        <!-- <CallToAction
             :style-type="6"
             title="Ready to start creating a standard website?"
             btn-text="Purchase Doob"
-        />
+        /> -->
         <!-- End CTA Area -->
 
         <Separator/>
@@ -58,6 +58,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-10 offset-lg-1 mt--50">
+                        <p>With years of expertise, we are the trusted digital marketers who employ proven strategies tailored to clients' needs and industry. Our focus on measurable results sets us apart, delivering unparalleled success.</p>
                         <Timeline :timeline-data="timelineData" :timeline-style="2"/>
                     </div>
                 </div>
@@ -68,13 +69,15 @@
         <Separator/>
 
         <!-- Start About Area -->
-        <AboutTwo/>
+        <!-- <AboutTwo/> -->
         <!-- End About Area -->
+
+        <TextArea1/>
 
         <Separator/>
 
         <!-- Start Pricing Area -->
-        <div class="rwt-pricing-area rn-section-gap">
+        <!-- <div class="rwt-pricing-area rn-section-gap">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -88,10 +91,10 @@
                 </div>
                 <Pricing :pricing-data="pricingData" :pricing-style="5"/>
             </div>
-        </div>
+        </div> -->
         <!-- End Pricing Area -->
 
-        <Separator/>
+        <!-- <Separator/> -->
 
         <!-- Start Brand Area -->
         <div class="rwt-brand-area rn-section-gap">
@@ -114,6 +117,23 @@
             </div>
         </div>
         <!-- End Brand Area  -->
+
+        <div class="rwt-elements-area rn-section-gap">
+            <div class="container">
+                <div class="row mb--20">
+                    <div class="col-lg-12">
+                        <SectionTitle
+                            text-align="center"
+                            subtitle="Client Feedback"
+                            title="Testimonial"
+                            data-aos="fade-up"
+                            data-aos-delay="60"
+                        />
+                    </div>
+                </div>
+                <Testimonial :testimonial="testimonialData"/>
+            </div>
+        </div>
     </Layout>
 </template>
 
@@ -127,10 +147,12 @@
     import Timeline from "../../components/elements/timeline/Timeline";
     import Pricing from "../../components/elements/pricing/Pricing";
     import Brand from "../../components/elements/brand/Brand";
+    import TextArea1 from "../../components/custom/textArea1";
+    import Testimonial from "../../components/custom/testimonial";
 
     export default {
         name: 'SeoAgency',
-        components: {Brand, Pricing, Timeline, CallToAction, Icon, AboutTwo, SectionTitle, Separator, Layout},
+        components: {Brand, Pricing, Timeline, CallToAction, Icon, AboutTwo, SectionTitle, Separator, Layout, TextArea1, Testimonial},
         data() {
             return {
                 timelineData: [
@@ -221,20 +243,34 @@
                     },
                     {
                         image: require(`@/assets/images/brand/brand-04.png`)
-                    },
-                    {
-                        image: require(`@/assets/images/brand/brand-05.png`)
-                    },
-                    {
-                        image: require(`@/assets/images/brand/brand-06.png`)
-                    },
-                    {
-                        image: require(`@/assets/images/brand/brand-07.png`)
-                    },
-                    {
-                        image: require(`@/assets/images/brand/brand-08.png`)
                     }
                 ],
+                testimonialData: [
+                    {
+                        description: 'Savvy Ray Tech has served as my marketing partner. I have admired some of the creative works that we received from them (both offline and online). They currently assist us in daily lead and inquiry generation on our website thanks to their SEO effectiveness. Good luck to the entire team!',
+                        name: 'Mr Soni',
+                        designation: 'Director of Silverspace Inc',
+                        image: 'avatar-4.png'
+                    },
+                    {
+                        description: 'From the beginning of our venture, Savvy Ray Technologies has been our partner. As a company, we have been working with them since inception, first for designing and developing our website, and then for all our online marketing needs. They have played an important role in the growth of our company by being extremely helpful & accommodating.',
+                        name: 'Mr Pandya',
+                        designation: 'Founder of Key Medsolutions',
+                        image: 'avatar-3.png'
+                    },
+                    {
+                        description: 'We were looking for a way to increase leads for our metal merchant business. We partnered with Savvy Ray Technologies  to create a Google Ads campaign that targeted our ideal customers. As a result, we saw a significant increase in leads, and we were able to close more sales. We are very pleased with the results and would highly recommend Savvy Ray Tech to other businesses.',
+                        name: 'Sanjay Kumavat',
+                        designation: 'Founder of SKD Aollys. Pvt ltd',
+                        image: 'avatar-2.png'
+                    },
+                    {
+                        description: 'I heartily endorse Savvy Ray Technologies for innovative design and brand awareness efforts. Their marketing team offers proactive advice and shares insightful strategies. Partnering with this company is beneficial, and they answer your requests immediately.',
+                        name: 'Mr Dabhi',
+                        designation: 'Co Founder of Vizva Consultancy Services (UK)',
+                        image: 'avatar-1.png'
+                    }
+                ]
             }
         }
     }
