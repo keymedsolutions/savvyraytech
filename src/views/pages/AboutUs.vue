@@ -65,7 +65,6 @@
             </div>
         </div>
         <TextComponent data-aos="fade-up" data-aos-delay="100" :data="mission"/>      
-        <Separator/>
        
     </Layout>
 </template>

@@ -13,10 +13,10 @@
                                 Ask Savvy Ray Technologies to create a complete and ambitious digital marketing plan that will elevate your business to new levels of success
                             </p>
                             <div class="button-group mt--30 mt_sm--20" data-aos="fade-up" data-aos-delay="200">
-                                <a class="btn-default btn-medium btn-icon btn-border"
-                                   href="#">
+                                <router-link class="btn-default btn-medium btn-icon btn-border"
+                                   to="/contact-us">
                                     Let's talk <Icon name="arrow-right" size="20" icon-class="icon"/>
-                                </a>
+                                </router-link>
                             </div>
                         </div>
                     </div>
