@@ -54,6 +54,16 @@ import Freelancer from '../views/home-pages/Freelancer'
 import InternationalConsulting from '../views/home-pages/InternationalConsulting'
 import Startup from '../views/home-pages/Startup'
 import WebAgency from '../views/home-pages/WebAgency'
+import Careers from '../views/pages/Careers';
+import Blog from '../views/pages/Blog'
+import AboutUs from '../views/pages/AboutUs'
+import ContactUs from '../views/pages/ContactUs'
+import Branding from '../views/pages/Branding'
+import WebDesignDevelopment from '../views/pages/WebDesignDevelopment'
+import PayPerClick from '../views/pages/PayPerClick'
+import SocialMediaMarketing from '../views/pages/SocialMediaMarketing'
+import SearchEngineOptimization from '../views/pages/SearchEngineOptimization'
+import ConceptShoots from '../views/pages/ConceptShoots'
 
 Vue.use(VueRouter)
 
@@ -513,7 +523,87 @@ const routes = [
         meta: {
             title: 'Page not found',
         },
-    }
+    },
+    {
+        path: '/search-engine-optimization',
+        name: 'Search engine optimization',
+        component: SearchEngineOptimization,
+        meta: {
+            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+        },
+    },
+    {
+        path: '/social-media-marketing',
+        name: 'Social media marketing',
+        component: SocialMediaMarketing,
+        meta: {
+            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+        },
+    },
+    {
+        path: '/pay-per-click',
+        name: 'Pay per click',
+        component: PayPerClick,
+        meta: {
+            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+        },
+    },
+    {
+        path: '/web-design-development',
+        name: 'Web design and development',
+        component: WebDesignDevelopment,
+        meta: {
+            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+        },
+    },
+    {
+        path: '/concept-shoots',
+        name: 'Concept shoots',
+        component: ConceptShoots,
+        meta: {
+            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+        },
+    },
+    {
+        path: '/branding',
+        name: 'Branding',
+        component: Branding,
+        meta: {
+            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+        },
+    },
+    {
+        path: '/about-us',
+        name: 'About us',
+        component: AboutUs,
+        meta: {
+            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+        },
+    },
+    {
+        path: '/careers',
+        name: 'Careers',
+        component: Careers,
+        meta: {
+            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+        },
+    },
+    {
+        path: '/blog',
+        name: 'Blog',
+        component: Blog,
+        meta: {
+            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+        },
+    },
+    {
+        path: '/contact-us',
+        name: 'Contact us',
+        component: ContactUs,
+        meta: {
+            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+        },
+    },
 ]
 
 const router = new VueRouter({
