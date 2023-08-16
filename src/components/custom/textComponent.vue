@@ -5,7 +5,7 @@
                 <div class="col-lg-8 col-xl-8 col-8">
                     <div class="split-inner">
                         <h4 class="title" v-if="data.title">{{ data.title }}</h4>
-                        <p class="description">{{ data.description }}</p>
+                        <p class="description" :class=" noDescriptionMargin ? 'mb--0' : '' ">{{ data.description }}</p>
                         <ul class="split-list" v-if="showList">
                             <li v-for="(listItem, index) in data.list" :key='index'>{{ listItem }}</li>
                         </ul>
@@ -31,7 +31,11 @@
                 type: Boolean,
                 default: false
             },
-            data: {}
+            data: {},
+            noDescriptionMargin: {
+                type: Boolean,
+                default: false
+            }
         }
     }
 </script>

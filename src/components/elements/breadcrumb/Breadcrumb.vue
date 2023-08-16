@@ -1,5 +1,5 @@
 <template>
-    <div class="breadcrumb-area breadcarumb-style-1 ptb--120">
+    <div class="breadcrumb-area breadcarumb-style-1 pt--120 pb--40">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

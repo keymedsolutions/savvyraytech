@@ -20,7 +20,7 @@
                      :aria-labelledby="`heading${content.id}`"
                      :data-bs-parent="`#${id}`">
                     <div class="accordion-body card-body">
-                        {{ content.description }}
+                        <p class="pb--0 mb--0" v-html="content.description" />
                     </div>
                 </div>
             </div>

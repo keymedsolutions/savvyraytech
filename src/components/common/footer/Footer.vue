@@ -42,8 +42,7 @@
                                 <div class="inner">
                                     
                                     <h4 class="subtitle mb-3 mt-3">Address: </h4>
-                                    <span>Address line 1</span><br/>
-                                    <span>Address line 2</span>
+                                    <span>Greensboro, North Carolina, USA</span>
                                 </div>
                             </div>
                         </div>
@@ -112,14 +111,14 @@
                                 <h4 class="title">Other links</h4>
                                 <div class="inner">
                                     <ul class="footer-link link-hover">
-                                        <li>
+                                        <!-- <li>
                                             <router-link to="/careers">Careers</router-link>
+                                        </li> -->
+                                        <li>
+                                            Email: <a href=":mailto=info@savvyraytech.com">info@savvyraytech.com</a>
                                         </li>
                                         <li>
-                                            Email: <a href=":mailto=user@email.com">user@email.com</a>
-                                        </li>
-                                        <li>
-                                            HR: <router-link to="/careers">HR</router-link>
+                                            HR: <router-link to="/">HR</router-link>
                                         </li>
                                     </ul>
                                 </div>
@@ -145,17 +144,17 @@
                                     </ul> -->
                                     <ul class="social-icon social-default justify-content-start mt--5">
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            <a href="https://www.facebook.com/savvyraytechnologies/" target="_blank">
                                                 <Icon name="facebook"/>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.instagram.com/" target="_blank">
+                                            <a href="https://www.instagram.com/savvyraytechnologies/" target="_blank">
                                                 <Icon name="instagram"/>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
+                                            <a href="https://www.linkedin.com/company/savvy-ray-technologies/" target="_blank">
                                                 <Icon name="linkedin"/>
                                             </a>
                                         </li>

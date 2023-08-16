@@ -73,7 +73,7 @@ const routes = [
         name: 'Home',
         component: SeoAgency,
         meta: {
-            title: 'Doob || Doob Business and Consulting Bootstrap5 Template',
+            title: 'Savvy Ray Technologies',
         },
     },
     {
@@ -521,7 +521,7 @@ const routes = [
         name: 'Page not found',
         component: ErrorPage,
         meta: {
-            title: 'Page not found',
+            title: 'Page not found || Savvy Ray Technologies',
         },
     },
     {
@@ -529,7 +529,7 @@ const routes = [
         name: 'Search engine optimization',
         component: SearchEngineOptimization,
         meta: {
-            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+            title: 'Search engine optimization || Savvy Ray Technologies',
         },
     },
     {
@@ -537,7 +537,7 @@ const routes = [
         name: 'Social media marketing',
         component: SocialMediaMarketing,
         meta: {
-            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+            title: 'Social media marketing || Savvy Ray Technologies',
         },
     },
     {
@@ -545,7 +545,7 @@ const routes = [
         name: 'Pay per click',
         component: PayPerClick,
         meta: {
-            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+            title: 'Pay per click || Savvy Ray Technologies',
         },
     },
     {
@@ -553,7 +553,7 @@ const routes = [
         name: 'Web design and development',
         component: WebDesignDevelopment,
         meta: {
-            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+            title: 'Web design and development || Savvy Ray Technologies',
         },
     },
     {
@@ -561,7 +561,7 @@ const routes = [
         name: 'Concept shoots',
         component: ConceptShoots,
         meta: {
-            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+            title: 'Concept shoots || Savvy Ray Technologies',
         },
     },
     {
@@ -569,7 +569,7 @@ const routes = [
         name: 'Branding',
         component: Branding,
         meta: {
-            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+            title: 'Branding || Savvy Ray Technologies',
         },
     },
     {
@@ -577,7 +577,7 @@ const routes = [
         name: 'About us',
         component: AboutUs,
         meta: {
-            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+            title: 'About us || Savvy Ray Technologies',
         },
     },
     {
@@ -585,7 +585,7 @@ const routes = [
         name: 'Careers',
         component: Careers,
         meta: {
-            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+            title: 'Careers || Savvy Ray Technologies',
         },
     },
     {
@@ -593,7 +593,7 @@ const routes = [
         name: 'Blog',
         component: Blog,
         meta: {
-            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+            title: 'Blog || Savvy Ray Technologies',
         },
     },
     {
@@ -601,7 +601,7 @@ const routes = [
         name: 'Contact us',
         component: ContactUs,
         meta: {
-            title: 'Web Agency || Doob Business and Consulting Bootstrap5 Template',
+            title: 'Contact us || Savvy Ray Technologies',
         },
     },
 ]

@@ -37,8 +37,8 @@
             </ul>
         </li>
         <li><router-link to="/about-us">About us</router-link></li>
-        <li><router-link to="/careers"> Careers - Life at Savvy Ray</router-link></li>
-        <li><router-link to="/blog">Blog</router-link></li>
+        <!-- <li><router-link to="/careers"> Careers - Life at Savvy Ray</router-link></li>
+        <li><router-link to="/blog">Blog</router-link></li> -->
         <li><router-link to="/contact-us">Contact Us</router-link></li>
         <!-- <li class="with-megamenu has-menu-child-item">
             <a href="#">
