@@ -12,7 +12,7 @@
                             data-aos-delay="60"
                         />
                         <Accordion
-                            accordion-style-class="rn-accordion-01"
+                            accordion-style-class="rn-accordion-02"
                             :accordion-content="data"
                             data-aos="fade-up"
                             data-aos-delay="60"
