@@ -115,10 +115,10 @@
                                             <router-link to="/careers">Careers</router-link>
                                         </li> -->
                                         <li>
-                                            Email: <a href=":mailto=info@savvyraytech.com">info@savvyraytech.com</a>
+                                            Email: <a href="mailto:info@savvyraytech.com">info@savvyraytech.com</a>
                                         </li>
                                         <li>
-                                            HR: <router-link to="/">HR</router-link>
+                                            Telephone: <a href="tel:+13366957819"> +1 336-695-7819</a>
                                         </li>
                                     </ul>
                                 </div>

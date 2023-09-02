@@ -45,10 +45,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 
     li {
         flex-basis: 25%;
-        border-width: 1px 1px 1px 1px;
+        border-width: 0px;
         border-style: solid;
         margin: 0px 0px -2px -2px;
         border-color: var(--color-border);

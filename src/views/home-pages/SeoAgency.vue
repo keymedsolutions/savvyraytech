@@ -233,16 +233,16 @@
                 ],
                 brandList: [
                     {
-                        image: require(`@/assets/images/brand/brand-01.png`)
+                        image: require(`@/assets/images/brand/silverspace.png`)
                     },
                     {
-                        image: require(`@/assets/images/brand/brand-02.png`)
+                        image: require(`@/assets/images/brand/keymed.png`)
                     },
                     {
-                        image: require(`@/assets/images/brand/brand-03.png`)
+                        image: require(`@/assets/images/brand/vizva.png`)
                     },
                     {
-                        image: require(`@/assets/images/brand/brand-04.png`)
+                        image: require(`@/assets/images/brand/skd.png`)
                     }
                 ],
                 testimonialData: [
